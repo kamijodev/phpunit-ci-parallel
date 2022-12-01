@@ -11,6 +11,10 @@ jobs:
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
       - run:
+          name: composer install
+          command: |
+            composer install --dev
+      - run:
           name: PHP UNIT
           command: |
             echo 'Hello World!'
