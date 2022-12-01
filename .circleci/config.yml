@@ -14,4 +14,4 @@ jobs:
           name: PHP UNIT
           command: |
             echo 'Hello World!'
-            echo 'vendor/bin/phpunit'
+            vendor/bin/phpunit
