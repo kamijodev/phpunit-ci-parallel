@@ -13,7 +13,7 @@ jobs:
       - run:
           name: composer install
           command: |
-            composer install --dev
+            composer install
       - run:
           name: PHP UNIT
           command: |
